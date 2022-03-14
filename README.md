@@ -1,4 +1,4 @@
-# Arrow Functions
+# Arrow Functions in JavaScript
 
 ---
 
