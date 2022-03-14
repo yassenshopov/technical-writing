@@ -1,7 +1,5 @@
 # Arrow Functions
 
-## 
-
 ---
 
 ## Syntax
