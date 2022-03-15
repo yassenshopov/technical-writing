@@ -45,6 +45,6 @@
 
 ## References
 
-- ["https://javascript.info/arrow-functions-basics"](https://javascript.info/arrow-functions-basics)
+- [https://javascript.info/arrow-functions-basics](https://javascript.info/arrow-functions-basics)
 
-- ["https://www.javascripttutorial.net/es6/javascript-arrow-function/"](https://www.javascripttutorial.net/es6/javascript-arrow-function/)
+- [https://www.javascripttutorial.net/es6/javascript-arrow-function](https://www.javascripttutorial.net/es6/javascript-arrow-function/)
