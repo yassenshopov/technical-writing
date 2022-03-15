@@ -1,15 +1,26 @@
 # Arrow Functions in JavaScript
 
 - If you have been programming for a while, you must be aware of the concept of __functions__ so far.
-- Since functions are so widely and commonly used, wouuldn't it be great if there was a way to make them shorter and more concise?
 
 ```
-{
-  "firstName": "John",
-  "lastName": "Smith",
-  "age": 25
+
+function y(x) {
+  return 2 * x;
 }
+
 ```
+
+- Since functions are so widely and commonly used, wouuldn't it be great if there was a way to make them shorter and more concise?
+- Say "hi" to Arrow Functions
+
+
+```
+
+let y = (x) => y = 2*x;
+
+```
+
+- Definition of AF
 
 ---
 
