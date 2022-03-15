@@ -26,6 +26,11 @@ let y = (x) => y = 2*x;
 
 ## Syntax
 
+- Resembles this of a normal function
+- Define output, input arguments, and the expression of the function
+- Syntax depends on the number of expressions
+-- dkfs;l
+
 ## Usage of const/let
 
 ## Single-line Arrow Functions
@@ -59,3 +64,5 @@ let y = (x) => y = 2*x;
 - [https://javascript.info/arrow-functions-basics](https://javascript.info/arrow-functions-basics)
 
 - [https://www.javascripttutorial.net/es6/javascript-arrow-function](https://www.javascripttutorial.net/es6/javascript-arrow-function/)
+
+- [https://www.programiz.com/javascript/arrow-function](https://www.programiz.com/javascript/arrow-function)
