@@ -28,8 +28,12 @@ let y = (x) => y = 2*x;
 
 - Resembles this of a normal function
 - Define output, input arguments, and the expression of the function
-- Syntax depends on the number of expressions
--- dkfs;l
+- Syntax depends on the number of arguments and expressions
+1. No argument
+2. 1 argument
+3. Several args
+4. 1 expression
+5. Multiple expressions
 
 ## Usage of const/let
 
