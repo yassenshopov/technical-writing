@@ -37,6 +37,9 @@ let y = (x) => y = 2*x;
 
 ## Usage of const/let
 
+- Arrow functions and the removal of var are both new features of ES6
+- The arrow function needs to be declared first, thus the usage of let/const => used to store the data as a variable
+
 ## Single-line Arrow Functions
 
 ## Multiple-line Arrow Functions
@@ -55,9 +58,15 @@ let y = (x) => y = 2*x;
 
 ## What does "this" reference to?
 
-## "this"
+You may have seen the keyword 'this' pop up occasionally in tutorials and example codes. And just like many other programming concepts, it is very context-dependent.
 
-## What does it refer to?
+'this' is handled differently depending on the type of function tat calls for it. In the case of regular functions, the keyword 'this' represents the object called by the function. As you can see in the following example, when a button function calls for 'this', 'this' represents the buttons, and the properties of 'this' are the properties of the button. 
+
+With regular functions, 'this' could be anything - the body of the HTML DOM, the event-triggering element, or just the window itself.
+
+With arrow functions, the situation is a little bit different.
+
+
 
 ## Binding a regular function?
 
