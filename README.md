@@ -45,10 +45,15 @@ As we already mentioned, the syntax of an arrow function resembles that of a nor
 
 While regular functions have a single, set-in-stone syntax, arrow functions can look different to each other depending on the number of lines they take and the number of arguments they take as inputs.
 
-We will start off with the most simple iteration - an arrow function which takes no arguments:
+We will start off with the most simple iteration - an arrow function which takes no arguments.
+
+1. No arguments
 
 ```
 
+let x = 5;
+let y = 3;
+() => x**y; // output will always be equal to 125
 
 
 ```
@@ -60,34 +65,28 @@ This type of function takes no inputs, and just uses previously declared variabl
 let x = 5;
 let y = 3;
 function power() {
-  return z = x ** y;
+  return x ** y;
 }
-i = power(x,y) // i will be equal to 125 (x^y^ or 5^3^)
+z = power(x,y) // z will be equal to 125
 
 ```
 
-- Define output, input arguments, and the expression of the function
-- Syntax depends on the number of arguments and expressions
-1. No argument
-2. 1 argument
-3. Several args
-4. 1 expression
-5. Multiple expressions
+2. Single argument
+
+3. Several arguments
+
+Arrow functions can furthed be differentiated by the number of expressions they have in their statement body.
+
+1. Single-expression arrow functions
+
+2. Multiple-expressions arrow functions 
 
 ## Usage of const/let
 
 - Arrow functions and the removal of var are both new features of ES6
 - The arrow function needs to be declared first, thus the usage of let/const => used to store the data as a variable
 
-## Single-line Arrow Functions
-
-## Multiple-line Arrow Functions
-
 ## Returning Objects in Particular
-
-## Single Parameters
-
-## Multiple Parameters
 
 ## Arrow Functions VS Regular Functions
 
