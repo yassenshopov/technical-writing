@@ -68,7 +68,27 @@ z = power(x,y) // z will be equal to 125
 
 2. Single argument
 
+In this case, parentheses are still optional, and an arrow function with a single parameter as input will look like this:
+
+```
+
+let y = (x) => y = 3*x;
+
+//The following code works the same way:
+
+let y = x => y = 3*x;
+
+```
+
 3. Several arguments
+
+Now, when more than one input argument is taken, parantheses become compulsory, like this:
+
+```
+
+let z = (x,y) => z = 3*x + y;
+
+```
 
 [Video 2](video2.mp4)
 
@@ -76,7 +96,29 @@ Arrow functions can furthed be differentiated by the number of expressions they 
 
 1. Single-expression arrow functions
 
+For a simple enough parametric calculation, the following syntax will be plenty, and will keep the arrow function short and concise (and most importantly *functioning*):
+
+```
+
+let output = (a,b) => output = a*b;
+
+```
+
+As you can see, it is a single line, and thus, no curly brackets are needed. The situation changes however when we get to...
+
 2. Multiple-expressions arrow functions 
+
+This is the situation at which you want your arrow function to do a bit more than just one calculation. In that case, you need to add curly brackets for your expression, which makes it resemble a regular function in terms of syntax. But then again, if you want to make a long and complex function, arrow functions may not be the first thing to come to your mind anyway.
+
+```
+let output = (a,b) => {
+  let temporary_output = a + b;
+  return output = temporary_output/2;
+};
+
+```
+
+We shouldn't forget to trat the expression in the curly brackets as a normal function and declare our variables and use the *'return'* keyword when it gets to the output.
 
 ## Usage of const/let
 
