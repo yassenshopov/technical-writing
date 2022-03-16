@@ -58,15 +58,17 @@ let y = (x) => y = 2*x;
 
 ## What does "this" reference to?
 
-You may have seen the keyword 'this' pop up occasionally in tutorials and example codes. And just like many other programming concepts, it is very context-dependent.
+You may have seen the keyword *'this'* pop up occasionally in tutorials and example codes. And just like many other programming concepts, it is very context-dependent.
 
-'this' is handled differently depending on the type of function tat calls for it. In the case of regular functions, the keyword 'this' represents the object called by the function. As you can see in the following example, when a button function calls for 'this', 'this' represents the buttons, and the properties of 'this' are the properties of the button. 
+*'this'* is handled differently depending on the type of function that calls for it. In the case of regular functions, the keyword *'this'* represents the object called by the function. As you can see in the following example, when a button function calls for *'this'*, *'this'* represents the buttons, and the properties of *'this'* are the properties of the button. 
 
-With regular functions, 'this' could be anything - the body of the HTML DOM, the event-triggering element, or just the window itself.
+With regular functions, '*this'* could be anything - the body of the HTML DOM, the event-triggering element, or just the window itself.
 
 With arrow functions, the situation is a little bit different.
 
+While *'this'* in regular functions applies to the object that __calls__ the function, when *'this'* is used by arrow functions, *'this'* represents the object that is owning the arrow function. In JavaScript, since it is running on the browser's console, the owner will generally be the window.
 
+- *insert code snippet*
 
 ## Binding a regular function?
 
