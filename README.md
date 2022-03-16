@@ -86,15 +86,11 @@ Since *'let'* was introduced together with arrow function, it makes sense that a
 
 The arrow function itself needs to be declared first, since it doesn't possess the *'function'* keyword, and thus the use of *let/const* is to be expected.
 
-## Arrow Functions as Object Literals
-
-
-
 ## Arrow Functions VS Regular Functions
 
 Arrow functions are different from regular functions not only in the visual sense.
 
-For example, arrow functions have a different behaviour when it comes to objects and object generation, which are crucial concepts in OOP (Object-Oriented Programming). Arrow functions:
+For example, arrow functions have a different behaviour when it comes to objects and object generation, which are crucial concepts in OOP. Arrow functions:
 
 - Cannot be used as function constructors. If you try to use the *'new'* keyword, you will get an error:
 
@@ -106,7 +102,13 @@ let y = (x) => const object = new Object(); //error
 
 - The keyword *'function'* is absent from the syntax of the arrow function. The arrow ('=>') itself hints at the use of a function, so repetition would be redundant.
 
-- 
+- The keyword *'return'* is also absent from the statment bit, as it is enough to just write the statement(s).  
+
+## Arrow Functions as Object Literals
+
+Arrow functions have a different behviour than regular functions when it comes to OOP (Object-Oriented Programming). Arrow functions are generally preferred for parametric calculations, but not so much when it comes to creating constructors and working with classes. 
+
+The main difference when it comes to object behaviour is the usage of *'this'*.
 
 ## What does "this" reference to?
 
