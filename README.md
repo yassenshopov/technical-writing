@@ -20,7 +20,7 @@ Then you can just call your function inside your code anytime you need it, just 
 
 Since functions are so widely and commonly used, wouldn't it be great if there was a way to make them shorter and more concise? Thankfully, developers have been working hard on that front, and ever since ES6 (a newer version of JavaScript, released in 2015), there is now a way to write __shorter__ and __cleaner__ functions that do the same job as regular ones.
 
-Say "hello" to Arrow Functions.
+Say "hello" to __Arrow Functions__.
 
 
 ```
