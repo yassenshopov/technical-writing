@@ -35,11 +35,37 @@ let square = (x) => square = x**2;
 
 As you can see from just a glance, arrow functions look very similar to regular functions, but they are also much more straightforward, especially for basic calculations and operations. They are most commonly used for one-line operations.
 
+In this article, we will go over the syntax of arrow functions, how they are different from regular functions, and their use of the *'this'* keyword.
+
 ---
 
 ## Syntax
 
-- Resembles this of a normal function
+As we already mentioned, the syntax of an arrow function resembles that of a normal function. It still consists of an output, input (arguments), and the expression that transforms the input into an output.
+
+While regular functions have a single, set-in-stone syntax, arrow functions can look different to each other depending on the number of lines they take and the number of arguments they take as inputs.
+
+We will start off with the most simple iteration - an arrow function which takes no arguments:
+
+```
+
+
+
+```
+
+This type of function takes no inputs, and just uses previously declared variables for its calculations/operations. You can compare it with a traditional function that also takes no arguments, also known as an "anonymous function"":
+
+```
+
+let x = 5;
+let y = 3;
+function power() {
+  return z = x ** y;
+}
+i = power(x,y) // i will be equal to 125 (x^y^ or 5^3^)
+
+```
+
 - Define output, input arguments, and the expression of the function
 - Syntax depends on the number of arguments and expressions
 1. No argument
