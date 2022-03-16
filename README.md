@@ -90,9 +90,19 @@ Arrow functions can furthed be differentiated by the number of expressions they 
 
 ## Arrow Functions VS Regular Functions
 
-## Absense of "function" keyword
+Arrow functions are different from regular functions not only in the visual sense.
 
-## Can it be used as a function constructor?
+For example, arrow functions have a different behaviour when it comes to objects and object generation, which are crucial concepts in OOP (Object-Oriented Programming). Arrow functions:
+
+- Cannot be used as function constructors. If you try to use the *'new'* keyword, you will get an error:
+
+```
+
+let y = (x) => const object = new Object(); //error
+
+```
+
+- The keyword *'function'* is absent from the syntax of the arrow function. The arrow ('=>') itself hints at the use of a function, so repetition would be redundant.
 
 ## What does "this" reference to?
 
