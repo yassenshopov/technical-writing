@@ -16,11 +16,7 @@ function square(x) {
 
 Then you can just call your function inside your code anytime you need it, just like I did here
 
-```
-
-*insert code gif*
-
-```
+[Video 1](video1.mp4)
 
 Since functions are so widely and commonly used, wouldn't it be great if there was a way to make them shorter and more concise? Thankfully, developers have been working hard on that front, and ever since ES6 (a newer version of JavaScript, released in 2015), there is now a way to write __shorter__ and __cleaner__ functions that do the same job as regular ones.
 
@@ -55,7 +51,6 @@ let x = 5;
 let y = 3;
 () => x**y; // output will always be equal to 125
 
-
 ```
 
 This type of function takes no inputs, and just uses previously declared variables for its calculations/operations. You can compare it with a traditional function that also takes no arguments, also known as an "anonymous function"":
@@ -75,6 +70,8 @@ z = power(x,y) // z will be equal to 125
 
 3. Several arguments
 
+[Video 2](video2.mp4)
+
 Arrow functions can furthed be differentiated by the number of expressions they have in their statement body.
 
 1. Single-expression arrow functions
@@ -83,10 +80,15 @@ Arrow functions can furthed be differentiated by the number of expressions they 
 
 ## Usage of const/let
 
-- Arrow functions and the removal of var are both new features of ES6
-- The arrow function needs to be declared first, thus the usage of let/const => used to store the data as a variable
+With the introduction of the new standard for writing JavaScript in 2015, ES6, many new features were introduce, including arrow functions. The other important bit is the new variable name *'let'*, which allows us to scope a variable in the frame of just one block, instead of using it throughout the whole function. With *'var'*, the variable would have to be declared throughout the whole function, and *'let'* allows for more precise and fine control over the process.
 
-## Returning Objects in Particular
+Since *'let'* was introduced together with arrow function, it makes sense that arrow functions cannot be used with *'var'*, and are instead used either with *'let'* or *'const'*. *'const'* is used when the variable is immutable (its value isn't allowed to change after the initial declaration) and *'let'* is used when the variable can change its value throughout the code.
+
+The arrow function itself needs to be declared first, since it doesn't possess the *'function'* keyword, and thus the use of *let/const* is to be expected.
+
+## Arrow Functions as Object Literals
+
+
 
 ## Arrow Functions VS Regular Functions
 
@@ -104,6 +106,8 @@ let y = (x) => const object = new Object(); //error
 
 - The keyword *'function'* is absent from the syntax of the arrow function. The arrow ('=>') itself hints at the use of a function, so repetition would be redundant.
 
+- 
+
 ## What does "this" reference to?
 
 You may have seen the keyword *'this'* pop up occasionally in tutorials and example codes. And just like many other programming concepts, it is very context-dependent.
@@ -116,7 +120,7 @@ With arrow functions, the situation is a little bit different.
 
 While *'this'* in regular functions applies to the object that __calls__ the function, when *'this'* is used by arrow functions, *'this'* represents the object that is owning the arrow function. In JavaScript, since it is running on the browser's console, the owner will generally be the window.
 
-- *insert code snippet*
+[Video 3](video3.mp4)
 
 ## Binding a regular function?
 
@@ -129,3 +133,5 @@ While *'this'* in regular functions applies to the object that __calls__ the fun
 - [https://www.javascripttutorial.net/es6/javascript-arrow-function](https://www.javascripttutorial.net/es6/javascript-arrow-function/)
 
 - [https://www.programiz.com/javascript/arrow-function](https://www.programiz.com/javascript/arrow-function)
+
+- [https://www.w3schools.com/js/js_arrow_function.asp](https://www.w3schools.com/js/js_arrow_function.asp)
