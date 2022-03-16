@@ -14,11 +14,11 @@ function square(x) {
 
 ```
 
-Then you can just call your function inside your code anytime you need it, just like I did here
+Then you can just call your function inside your code anytime you need it, just like I did here:
 
 [Video 1](video1.mp4)
 
-Since functions are so widely and commonly used, wouldn't it be great if there was a way to make them shorter and more concise? Thankfully, developers have been working hard on that front, and ever since ES6 (a newer version of JavaScript, released in 2015), there is now a way to write __shorter__ and __cleaner__ functions that do the same job as regular ones.
+Since functions are so widely and commonly used, wouldn't it be great if there was a way to make them more concise? Thankfully, developers have been working hard on that front, and ever since ES6 (a newer version of JavaScript, released in 2015), there is now a way to write __shorter__ and __cleaner__ functions that do the same job as regular ones.
 
 Say "hello" to __Arrow Functions__.
 
@@ -37,11 +37,11 @@ In this article, we will go over the syntax of arrow functions, how they are dif
 
 ## Syntax
 
-As we already mentioned, the syntax of an arrow function resembles that of a normal function. It still consists of an output, input (arguments), and the expression that transforms the input into an output.
+As we already mentioned, the syntax of an arrow function resembles that of a normal function. It still consists of output, input (arguments), and the expression that transforms the input into an output.
 
 While regular functions have a single, set-in-stone syntax, arrow functions can look different to each other depending on the number of lines they take and the number of arguments they take as inputs.
 
-We will start off with the most simple iteration - an arrow function which takes no arguments.
+We will start off with the most simple iteration - an arrow function that takes no arguments.
 
 1. No arguments
 
@@ -53,7 +53,7 @@ let y = 3;
 
 ```
 
-This type of function takes no inputs, and just uses previously declared variables for its calculations/operations. You can compare it with a traditional function that also takes no arguments, also known as an "anonymous function"":
+This type of function takes no inputs, and just uses previously declared variables for its calculations/operations. You can compare it with a traditional function that also takes no arguments, also known as an "anonymous function":
 
 ```
 
@@ -82,7 +82,7 @@ let y = x => y = 3*x;
 
 3. Several arguments
 
-Now, when more than one input argument is taken, parantheses become compulsory, like this:
+Now, when more than one input argument is taken, parentheses become compulsory, like this:
 
 ```
 
@@ -92,11 +92,11 @@ let z = (x,y) => z = 3*x + y;
 
 [Video 2](video2.mp4)
 
-Arrow functions can furthed be differentiated by the number of expressions they have in their statement body.
+Arrow functions can further be differentiated by the number of expressions they have in their statement body.
 
 1. Single-expression arrow functions
 
-For a simple enough parametric calculation, the following syntax will be plenty, and will keep the arrow function short and concise (and most importantly *functioning*):
+For a simple enough parametric calculation, the following syntax will be plenty, and will keep the arrow function short (and most importantly *functioning*):
 
 ```
 
@@ -108,7 +108,7 @@ As you can see, it is a single line, and thus, no curly brackets are needed. The
 
 2. Multiple-expressions arrow functions 
 
-This is the situation at which you want your arrow function to do a bit more than just one calculation. In that case, you need to add curly brackets for your expression, which makes it resemble a regular function in terms of syntax. But then again, if you want to make a long and complex function, arrow functions may not be the first thing to come to your mind anyway.
+This is the situation in which you want your arrow function to do a bit more than just one calculation. In that case, you need to add curly brackets for your expression, which makes it resemble a regular function in terms of syntax. But then again, if you want to make a long and complex function, arrow functions may not be the first thing to come to your mind anyway.
 
 ```
 let output = (a,b) => {
@@ -118,13 +118,13 @@ let output = (a,b) => {
 
 ```
 
-We shouldn't forget to trat the expression in the curly brackets as a normal function and declare our variables and use the *'return'* keyword when it gets to the output.
+We shouldn't forget to treat the expression in the curly brackets as a normal function and declare our variables and use the *'return'* keyword when it gets to the output.
 
 ## Usage of const/let
 
-With the introduction of the new standard for writing JavaScript in 2015, ES6, many new features were introduce, including arrow functions. The other important bit is the new variable name *'let'*, which allows us to scope a variable in the frame of just one block, instead of using it throughout the whole function. With *'var'*, the variable would have to be declared throughout the whole function, and *'let'* allows for more precise and fine control over the process.
+With the introduction of the new standard for writing JavaScript in 2015, ES6, many new features were introduced, including arrow functions. The other important bit is the new variable name *'let'*, which allows us to scope a variable in the frame of just one block, instead of using it throughout the whole function. With *'var'*, the variable would have to be declared throughout the whole function, and *'let'* allows for more precise and fine control over the process.
 
-Since *'let'* was introduced together with arrow function, it makes sense that arrow functions cannot be used with *'var'*, and are instead used either with *'let'* or *'const'*. *'const'* is used when the variable is immutable (its value isn't allowed to change after the initial declaration) and *'let'* is used when the variable can change its value throughout the code.
+Since *'let'* was introduced together with arrow functions, it makes sense that arrow functions cannot be used with *'var'*, and are instead used either with *'let'* or *'const'*. *'const'* is used when the variable is immutable (its value isn't allowed to change after the initial declaration) and *'let'* is used when the variable can change its value throughout the code.
 
 The arrow function itself needs to be declared first, since it doesn't possess the *'function'* keyword, and thus the use of *let/const* is to be expected.
 
@@ -132,7 +132,7 @@ The arrow function itself needs to be declared first, since it doesn't possess t
 
 Arrow functions are different from regular functions not only in the visual sense.
 
-For example, arrow functions have a different behaviour when it comes to objects and object generation, which are crucial concepts in OOP. Arrow functions:
+For example, arrow functions have different behaviour when it comes to objects and object generation, which are crucial concepts in OOP. Arrow functions:
 
 - Cannot be used as function constructors. If you try to use the *'new'* keyword, you will get an error:
 
@@ -144,11 +144,11 @@ let y = (x) => const object = new Object(); //error
 
 - The keyword *'function'* is absent from the syntax of the arrow function. The arrow ('=>') itself hints at the use of a function, so repetition would be redundant.
 
-- The keyword *'return'* is also absent from the statment bit, as it is enough to just write the statement(s).  
+- The keyword *'return'* is also absent from the statement bit, as it is enough to just write the statement(s).  
 
 ## Arrow Functions as Object Literals
 
-Arrow functions have a different behviour than regular functions when it comes to OOP (Object-Oriented Programming). Arrow functions are generally preferred for parametric calculations, but not so much when it comes to creating constructors and working with classes. 
+Arrow functions have different behaviour than regular functions when it comes to OOP (Object-Oriented Programming). Arrow functions are generally preferred for parametric calculations, but not so much when it comes to creating constructors and working with classes. 
 
 The main difference when it comes to object behaviour is the usage of *'this'*.
 
