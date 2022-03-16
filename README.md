@@ -166,8 +166,6 @@ While *'this'* in regular functions applies to the object that __calls__ the fun
 
 [Video 3](video3.mp4)
 
-## Binding a regular function?
-
 ---
 
 ## References
