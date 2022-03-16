@@ -1,11 +1,15 @@
 # Arrow Functions in JavaScript
 
-- If you have been programming for a while, you must be aware of the concept of __functions__ so far.
+If you have been programming for a while, you must be aware of the concept of __functions__. 
+ 
+Functions can be defined as pieces of code that are designed to do one particular task. If you need this task to be done multiple times throughout your code, you can put it in a function and just call the function every time you need it, instead of repeatedly writing long pieces of code.
+
+Let's say you want a function to calculate the square of whatever number you put as input. Typically, in JavaScript, a function looks like this:
 
 ```
 
-function y(x) {
-  return 2 * x;
+function square(x) {
+  return x ** 2;
 }
 
 ```
@@ -16,7 +20,7 @@ function y(x) {
 
 ```
 
-let y = (x) => y = 2*x;
+let square = (x) => square = x**2;
 
 ```
 
